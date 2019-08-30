@@ -13,3 +13,8 @@
  *= require_tree .
  *= require_self
  */
+#book-title{
+  font-size: 25px;
+  font-weight: bold;
+  font-family: fantasy;
+}
