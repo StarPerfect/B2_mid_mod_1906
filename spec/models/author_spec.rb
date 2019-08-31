@@ -9,4 +9,10 @@ RSpec.describe Author, type: :model do
   describe 'validations' do
     it { should validate_presence_of :name }
   end
+
+  describe '#instance methods' do
+    it 'finds the average number of pages across all authors books' do
+      
+    end
+  end
 end
