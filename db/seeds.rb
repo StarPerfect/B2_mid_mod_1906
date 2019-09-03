@@ -15,3 +15,15 @@ deadspeak = Book.create(title: 'Necroscope IV: Deadspeak', pages: 400, publicati
 # lumley_book_4 = AuthorBook.create(author_id: lumley.id, book_id: deadspeak.id)
 lumley.books << necropscope
 lumley.books << deadspeak
+
+coelho = Author.create(name: 'Paulo Coelho')
+alchemist = Book.create(title: 'The Alchemist', pages: 167, publication_year: 1988)
+coelho.books << alchemist
+
+barry = Author.create(name: 'Max Barry')
+jenngovt = Book.create(title: 'Jennifer Government', pages: 320, publication_year: 2003)
+barry.books << jenngovt
+
+gruen = Author.create(name: 'Sara Gruen')
+h204elephants = Book.create(title: 'Water for Elephants', pages: 335, publication_year: 2006)
+gruen.books << h204elephants
